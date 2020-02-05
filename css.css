@@ -27,7 +27,12 @@ body{
     text-align: center;
 }
 .btn ,.btn-primary, .btn-lg{
-    background-color: red;
+    background-color:var(--background-color);
+    border-color: var(--font-color);
+}
+.btn:hover{
+    background-color: var(--font-color);
+    border-color: var(--font-color);
 }
 
 
