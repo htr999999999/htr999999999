@@ -1,0 +1,33 @@
+/*Set colors - Definir colores
+
+373E45
+55706E
+9BDAB9
+FDF8AF
+B9E752
+
+*/
+
+
+:root{
+    --background-color: #373E45;
+    --font-color:#55706E;
+    --box-colors:#bcabae;
+
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--font-color);
+    font-family: 'Roboto', sans-serif;
+}
+.jumbotron, .display-3, .lead{
+    font-family: 'Lato', sans-serif;
+    background-color: var(--background-color);
+    text-align: center;
+}
+.btn ,.btn-primary, .btn-lg{
+    background-color: red;
+}
+
+
