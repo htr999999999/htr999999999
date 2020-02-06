@@ -34,15 +34,27 @@ body{
     background-color: var(--font-color);
     border-color: var(--font-color);
 }
-.images{
-    display: inline-block;
-    padding: 0 300px 0 300px;
+.sharom{
+    margin: auto;
+    margin-top: 200px;
+    max-width: 90%;
+}
+/*title!*/
+.display-1{
+
+    display: block;
+    max-height: 100vmax;
+    min-height: 100vmin;
+    background: url(https://lastfm.freetls.fastly.net/i/u/300x300/743a5fadc65e3376701479e3e5808d80.jpg) center center fixed ;
+
+
+}
+.display-1-h1{
+    text-align: center;
+    padding-top: 25%;
 }
 
-
-
 #sun-ken{
-
     height: 600px;
     width: 400px;
 }
