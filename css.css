@@ -36,25 +36,54 @@ body{
 }
 .sharom{
     margin: auto;
-    margin-top: 200px;
+    margin-top: 0%;
     max-width: 90%;
 }
 /*title!*/
 .display-1{
 
     display: block;
-    max-height: 100vmax;
     min-height: 100vmin;
-    background: url(https://lastfm.freetls.fastly.net/i/u/300x300/743a5fadc65e3376701479e3e5808d80.jpg) center center fixed ;
-
+    background: url(https://images6.alphacoders.com/552/thumb-1920-552807.jpg) no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    
+    /*https://lastfm.freetls.fastly.net/i/u/300x300/743a5fadc65e3376701479e3e5808d80.jpg*/
 
 }
-.display-1-h1{
-    text-align: center;
-    padding-top: 25%;
+.display-1 p {
+    color: white;
+    font-size: 50px;
+    padding-top: 5%;
+}
+.display-1-h1{  
+    padding-top: 10%;
+    color: white;
+}
+.title{
+    font-size: 100px;
+    color: #bcabae;
 }
 
 #sun-ken{
     height: 600px;
     width: 400px;
 }
+.Projects-title{
+    text-align: center;
+    font-size: 80px;
+    color: crimson;
+    height: 25vmin;
+    padding: 25px;
+}
+
+.sharom p{
+    text-align: center;
+    color: var(--font-color);
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
