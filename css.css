@@ -109,3 +109,28 @@ body{
 a{
     color: white !important;
 }
+
+/****** things i like lol pg ******/
+
+.main-itl{
+    text-align: center;
+    color: white;
+    
+}
+.title-itl{
+    display: block;
+    height:25vmax;
+    width: 100vmax;
+    background-image: url(img/BLACKPINK.jpg);
+    
+}
+.title-itl h1{
+    padding-top: 80px;
+    font-size: 3rem;
+    color:darkorchid;
+    font-family: monospace;
+}
+.sect-div{
+    margin-top: 100px;
+    margin-left: -10vw;
+}
