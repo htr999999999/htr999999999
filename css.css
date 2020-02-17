@@ -8,129 +8,128 @@ B9E752
 
 */
 
-
-:root{
-    --background-color: #373E45;
-    --font-color:#55706E;
-    --box-colors:#bcabae;
-
+:root {
+  --background-color: #373e45;
+  --font-color: #55706e;
+  --box-colors: #bcabae;
 }
 
-body{
-    background-color: var(--background-color);
-    color: var(--font-color);
-    font-family: 'Roboto', sans-serif;
+body {
+  background-color: var(--background-color);
+  color: var(--font-color);
+  font-family: "Roboto", sans-serif;
 }
-.jumbotron, .display-3, .lead{
-    font-family: 'Lato', sans-serif;
-    background-color: var(--background-color);
-    text-align: center;
+.jumbotron,
+.display-3,
+.lead {
+  font-family: "Lato", sans-serif;
+  background-color: var(--background-color);
+  text-align: center;
 }
-.btn ,.btn-primary, .btn-lg{
-    background-color:var(--background-color);
-    border-color: var(--font-color);
+.btn,
+.btn-primary,
+.btn-lg {
+  background-color: var(--background-color);
+  border-color: var(--font-color);
 }
-.btn:hover{
-    background-color: var(--font-color);
-    border-color: var(--font-color);
+.btn:hover {
+  background-color: var(--font-color);
+  border-color: var(--font-color);
 }
-.sharom{
-    margin: auto;
-    margin-top: 0%;
-    max-width: 90vw;
+.sharom {
+  margin: auto;
+  margin-top: 0%;
+  max-width: 90vw;
 }
 /*title!*/
-.display-1{
+.display-1 {
+  display: block;
+  min-height: 100vmin;
+  background: url(https://images6.alphacoders.com/552/thumb-1920-552807.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
 
-    display: block;
-    min-height: 100vmin;
-    background: url(https://images6.alphacoders.com/552/thumb-1920-552807.jpg) no-repeat center center fixed ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    text-align: center;
-    
-    /*https://lastfm.freetls.fastly.net/i/u/300x300/743a5fadc65e3376701479e3e5808d80.jpg*/
-
+  /*https://lastfm.freetls.fastly.net/i/u/300x300/743a5fadc65e3376701479e3e5808d80.jpg*/
 }
 .display-1 p {
-    color: white;
-    font-size: 0.3em;
-    padding-top: 5%;
+  color: white;
+  font-size: 0.3em;
+  padding-top: 5%;
 }
-.display-1-h1{  
-    padding-top: 10%;
-    color: white;
+.display-1-h1 {
+  padding-top: 10%;
+  color: white;
 }
-.title{
-    font-size: 10vw;
-    color: #bcabae;
-}
-
-#sun-ken{
-    height: 15vh;
-    width: 20vw;
-}
- 
-.Projects-title{
-    text-align: center;
-    font-size: 80px;
-    color: crimson;
-    height: 25vmin;
-    padding: 25px;
+.title {
+  font-size: 10vw;
+  color: #bcabae;
 }
 
-.sharom p{
-    text-align: center;
-    color: var(--font-color);
-    font-size: 20px;
-    padding-top: 80px;
-    padding-bottom: 50px;
+#sun-ken {
+  height: 15vh;
+  width: 20vw;
 }
 
-.navbar-light{
-    width: 100vw;
-    position: fixed;
-    background-color: rgba(65, 65, 65, 0.5) !important;   
+.Projects-title {
+  text-align: center;
+  font-size: 80px;
+  color: crimson;
+  height: 25vmin;
+  padding: 25px;
+}
+
+.sharom p {
+  text-align: center;
+  color: var(--font-color);
+  font-size: 20px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.navbar-light {
+  width: 100vw;
+  position: fixed;
+  background-color: rgba(65, 65, 65, 0.5) !important;
 }
 .navbar-expand {
-    justify-content: center;
+  justify-content: center;
 }
-.navbar-expand .navbar-nav .nav-link{
-    padding-right: 3rem;
-    padding-left: 3rem;
-}
-
-.navbar-light .navbar-nav .nav-link:hover{
-    color:crimson !important;
+.navbar-expand .navbar-nav .nav-link {
+  padding-right: 3rem;
+  padding-left: 3rem;
 }
 
-a{
-    color: white !important;
+.navbar-light .navbar-nav .nav-link:hover {
+  color: crimson !important;
+}
+
+a {
+  color: white !important;
 }
 
 /****** things i like lol pg ******/
 
-.main-itl{
-    text-align: center;
-    color: white;
-    
+.main-itl {
+  text-align: center;
+  color: white;
 }
-.title-itl{
-    display: block;
-    height:25vmax;
-    width: 100vmax;
-    background-image: url(img/BLACKPINK.jpg);
-    
+.title-itl {
+  display: block;
+  height: 25vmax;
+  width: 100vmax;
+  background-image: url(img/BLACKPINK.jpg);
 }
-.title-itl h1{
-    padding-top: 80px;
-    font-size: 3rem;
-    color:darkorchid;
-    font-family: monospace;
+.title-itl h1 {
+  padding-top: 80px;
+  font-size: 3rem;
+  color: darkorchid;
+  font-family: monospace;
 }
-.sect-div{
-    margin-top: 100px;
-    margin-left: -10vw;
+.sect-div {
+  margin-top: 100px;
+  margin-left: -10vw;
 }
